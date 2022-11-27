@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bank.cpp" />
+    <ClCompile Include="FIO.cpp" />
     <ClCompile Include="Lab3c++.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bank.h" />
+    <ClInclude Include="FIO.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
